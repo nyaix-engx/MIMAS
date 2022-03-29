@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0-windows
+build_property.TargetPlatformMinVersion = 7.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = WinFormsApp2
+build_property.ProjectDir = \\Mac\Home\Downloads\wetransfer_final-version_11th-dec-2021_2022-03-27_1612\Final Version_11th Dec 2021\WinFormsApp2\WinFormsApp2\
