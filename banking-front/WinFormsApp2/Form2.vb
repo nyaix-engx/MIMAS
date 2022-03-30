@@ -14,7 +14,7 @@ Public Class Form2
             Dim c As New user
             c.telephone = phoneNumber.Text
             c.pin = pin.Text
-            Dim RestURL As String = "https://dee2-139-5-254-216.ngrok.io/customer/login"
+            Dim RestURL As String = "https://aee2-139-5-254-118.ngrok.io/customer/login"
             Dim client As New Http.HttpClient
             Dim JsonData As String = JsonConvert.SerializeObject(c)
             Dim RestContent As New Http.StringContent(JsonData, Encoding.UTF8, "application/json")
@@ -54,4 +54,6 @@ Public Class Form2
         e.Handled = Not (Char.IsDigit(e.KeyChar) Or Asc(e.KeyChar) = 8)
 
     End Sub
+
+
 End Class

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\Mac\\Home\\Documents\\Projects\\MIMAS\\banking-front\\WinFormsApp2\\MIMAS.vbproj": {}
+    "\\\\Mac\\Home\\Downloads\\MIMAS\\banking-front\\WinFormsApp2\\MIMAS.vbproj": {}
   },
   "projects": {
-    "\\\\Mac\\Home\\Documents\\Projects\\MIMAS\\banking-front\\WinFormsApp2\\MIMAS.vbproj": {
+    "\\\\Mac\\Home\\Downloads\\MIMAS\\banking-front\\WinFormsApp2\\MIMAS.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\Home\\Documents\\Projects\\MIMAS\\banking-front\\WinFormsApp2\\MIMAS.vbproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Downloads\\MIMAS\\banking-front\\WinFormsApp2\\MIMAS.vbproj",
         "projectName": "MIMAS",
-        "projectPath": "\\\\Mac\\Home\\Documents\\Projects\\MIMAS\\banking-front\\WinFormsApp2\\MIMAS.vbproj",
+        "projectPath": "\\\\Mac\\Home\\Downloads\\MIMAS\\banking-front\\WinFormsApp2\\MIMAS.vbproj",
         "packagesPath": "C:\\Users\\nyaix-engx\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\Home\\Documents\\Projects\\MIMAS\\banking-front\\WinFormsApp2\\obj\\",
+        "outputPath": "\\\\Mac\\Home\\Downloads\\MIMAS\\banking-front\\WinFormsApp2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nyaix-engx\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = WinFormsApp2
-build_property.ProjectDir = \\Mac\Home\Documents\Projects\MIMAS\banking-front\WinFormsApp2\
+build_property.ProjectDir = \\Mac\Home\Downloads\MIMAS\banking-front\WinFormsApp2\

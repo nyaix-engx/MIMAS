@@ -29,7 +29,7 @@ Public Class Form4
     Private Async Sub getCash_Click(sender As Object, e As EventArgs) Handles getCash.Click
         balanceInfo.Text = "Fetching Information..."
         Try
-            Dim res As Http.HttpResponseMessage = Await apiCall("https://dee2-139-5-254-216.ngrok.io/cash", "GET", {})
+            Dim res As Http.HttpResponseMessage = Await apiCall("https://aee2-139-5-254-118.ngrok.io/cash", "GET", {})
             Dim responseBody As Object = Await res.Content.ReadAsStringAsync()
             Dim resJson As Object = New JavaScriptSerializer().Deserialize(Of Object)(responseBody)
             Debug.WriteLine(resJson)
@@ -46,7 +46,7 @@ Public Class Form4
     Private Async Sub getShare_Click(sender As Object, e As EventArgs) Handles getShare.Click
         balanceInfo.Text = "Fetching Information..."
         Try
-            Dim res As Http.HttpResponseMessage = Await apiCall("https://dee2-139-5-254-216.ngrok.io/share", "GET", {})
+            Dim res As Http.HttpResponseMessage = Await apiCall("https://aee2-139-5-254-118.ngrok.io/share", "GET", {})
             Dim responseBody As Object = Await res.Content.ReadAsStringAsync()
             Dim resJson As Object = New JavaScriptSerializer().Deserialize(Of Object)(responseBody)
 
@@ -71,7 +71,7 @@ Public Class Form4
                 c.amount = Amount.Text
                 Dim JsonData As String = Newtonsoft.Json.JsonConvert.SerializeObject(c)
                 Dim RestContent As New Http.StringContent(JsonData, Encoding.UTF8, "application/json")
-                Dim res As Http.HttpResponseMessage = Await apiCall("https://dee2-139-5-254-216.ngrok.io/cashtransaction", "PUT", RestContent)
+                Dim res As Http.HttpResponseMessage = Await apiCall("https://aee2-139-5-254-118.ngrok.io/cashtransaction", "PUT", RestContent)
                 Dim responseBody As Object = Await res.Content.ReadAsStringAsync()
                 Dim resJson As Object = New JavaScriptSerializer().Deserialize(Of Object)(responseBody)
                 If res.StatusCode = 200 Then
@@ -107,7 +107,7 @@ Public Class Form4
 
 
                 Dim RestContent As New Http.StringContent(JsonData, Encoding.UTF8, "application/json")
-                Dim res As Http.HttpResponseMessage = Await apiCall("https://dee2-139-5-254-216.ngrok.io/cashtransaction", "PUT", RestContent)
+                Dim res As Http.HttpResponseMessage = Await apiCall("https://aee2-139-5-254-118.ngrok.io/cashtransaction", "PUT", RestContent)
                 Dim responseBody As Object = Await res.Content.ReadAsStringAsync()
                 Dim resJson As Object = New JavaScriptSerializer().Deserialize(Of Object)(responseBody)
                 If res.StatusCode = 200 Then
@@ -133,7 +133,7 @@ Public Class Form4
                 c.amount = Amount.Text
                 Dim JsonData As String = Newtonsoft.Json.JsonConvert.SerializeObject(c)
                 Dim RestContent As New Http.StringContent(JsonData, Encoding.UTF8, "application/json")
-                Dim res As Http.HttpResponseMessage = Await apiCall("https://dee2-139-5-254-216.ngrok.io/sharetransaction", "PUT", RestContent)
+                Dim res As Http.HttpResponseMessage = Await apiCall("https://aee2-139-5-254-118.ngrok.io/sharetransaction", "PUT", RestContent)
                 Dim responseBody As Object = Await res.Content.ReadAsStringAsync()
                 Dim resJson As Object = New JavaScriptSerializer().Deserialize(Of Object)(responseBody)
                 If res.StatusCode = 200 Then
@@ -161,7 +161,7 @@ Public Class Form4
                 c.amount = Amount.Text - (Amount.Text * 2)
                 Dim JsonData As String = Newtonsoft.Json.JsonConvert.SerializeObject(c)
                 Dim RestContent As New Http.StringContent(JsonData, Encoding.UTF8, "application/json")
-                Dim res As Http.HttpResponseMessage = Await apiCall("https://dee2-139-5-254-216.ngrok.io/sharetransaction", "PUT", RestContent)
+                Dim res As Http.HttpResponseMessage = Await apiCall("https://aee2-139-5-254-118.ngrok.io/sharetransaction", "PUT", RestContent)
                 Dim responseBody As Object = Await res.Content.ReadAsStringAsync()
                 Dim resJson As Object = New JavaScriptSerializer().Deserialize(Of Object)(responseBody)
                 If res.StatusCode = 200 Then
